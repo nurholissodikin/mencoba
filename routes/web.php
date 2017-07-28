@@ -43,10 +43,20 @@ Route::get('/testmodel4', function () {
     return $query;
 });
 
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 Route::get('/siswa', function () {
     $query = App\Siswa::all();
     return $query;
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/about2', function () {
+    return view('about2');
+});
+Route::get('/about3', function () {
+    return view('about3');
 });
 
 
